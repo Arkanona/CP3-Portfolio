@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/f35c9641f7.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="container-max">
+        <a href="/">Enzo Gallardo</a>
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">À propos</a></li>
+            <li><a href="#">Projets</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section id="image">
+            <div class="container-max">
+                <article>
+                    <div>
+                        <h1>Enzo Gallardo</h1>
+                        <p>Étudiant Développeur FullStack</p>
+                    </div>
+                    <div>
+                        <p>Je crée des expériences web élégantes, intuitives <br> et performantes avec une attention particulière aux détails.</p>
+                        <a href="#">Voir mes projets</a>
+                    </div>
+                </article>
+                <img src="image/3cde1a920037cae8bd366e533834d3a8cfcb6748.jpg" alt="Photo d'une femme">
+            </div>
+        </section>
+
+        <section id="propos" class="container-max">
+            <h2>À propos de moi</h2>
+            <div>
+                <article>
+                    <h3>Mon parcours</h3>
+                    <p>Diplômée en développement web et design d'interface, je combine des compétences techniques solides avec une sensibilité esthétique pour créer des sites web et applications qui sont à la fois fonctionnels et visuellement attrayants.</p>
+                    <p>Après 3 ans d'expérience en agence digitale, j'ai développé une expertise dans la création d'interfaces utilisateur intuitives et accessibles, en privilégiant toujours l'expérience utilisateur.</p>
+                    <p>Je suis passionnée par les technologies web modernes et je m'efforce constamment d'améliorer mes compétences pour rester à la pointe des dernières tendances et meilleures pratiques.</p>
+                    <a href="#">En savoir plus sur mon parcours →</a>
+                </article>
+                <article>
+                    <h3>Mes compétences</h3>
+                    <div>
+                        <div>
+                            <i class="fa-brands fa-html5 icon"></i>
+                            <p>HTML 5</p>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-css3-alt icon"></i>
+                            <p>CSS 3</p>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-js icon"></i>
+                            <p>JavaScript</p>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-react icon"></i>
+                            <p>React</p>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-php icon"></i>
+                            <p>PHP</p>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-node-js icon"></i>
+                            <p>Node JS</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="projet">
+            <div class="container-max"> 
+                <h2>Mes projets récents</h2>
+                <p>Découvrez une sélection de mes travaux récents qui démontrent mes <br> compétences en développement web et design d'interface.</p>
+                <div>
+                    <article>
+                        <img src="image/Maçonnerie.png" alt="Image d'un site web de maçonnerie">
+                        <div>
+                            <h3>Maçonnerie Artisanale</h3>
+                            <p>Conception et développement d'un site web de maçonnerie d'une entreprise familiale dans un style épuré.</p>
+                            <div>
+                                <span>HTML 5</span>
+                                <span>CSS3</span>
+                                <span>Responsive</span>
+                            </div>
+                            <a href="#">Voir le projet →</a>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="image/AKO.jpg" alt="image d'un site web de vêtement">
+                        <div>
+                            <h3>AKO</h3>
+                            <p>Conception et développement d'un site web de vêtement fashion pour hommes, femmes et enfants.</p>
+                            <div>
+                                <span>HTML 5</span>
+                                <span>CSS3</span>
+                                <span>Responsive</span>
+                            </div>
+                            <a href="#">Voir le projet →</a>
+                        </div>
+                    </article>
+                </div>
+                <a href="#">Voir tout les projets</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container-max">
+                <h2>Contactez-moi</h2>
+                <p>Vous avez un projet en tête ou une question ? N'hésitez pas à me contacter, je <br>Vous répondrai dans les plus brefs délais.</p>
+                <form action="#">
+                    <div class="form">
+                        <div>
+                            <label for="name">Nom</label>
+                            <input type="text" id="name" name="user_name" >
+                        </div>
+                        <div>                   
+                            <label for="mail">Email</label>
+                            <input type="email" id="mail" name="user_mail" ">
+                        </div>
+                        <div class="msg">                      
+                            <label for="message">Message</label>
+                            <textarea name="user_message" rows="8" id="message" ></textarea>
+                        </div>
+                    </div>
+                    <div class="checkbox">
+                    <input type="checkbox" id="agree" name="agree" checked/><label for="agree">J'accepte que mes données soient traitées conformément à la politique de confidentialité. Elles ne seront utilisées que pour répondre à ma demande.</label>
+                    </div>
+                    <button type="submit">Envoyez le message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container-max">
+        <div>
+            <a href="/">Enzo Gallardo</a>
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="https://github.com/Arkanona" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-discord"></i></a></li>
+            </ul>
+        </div>
+        <div>
+            <p>Étudiant Développeur Web FullStack</p>
+            <p>© 2026 Enzo Gallardo. Tous droits réservés.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
