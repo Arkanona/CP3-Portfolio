@@ -1,4 +1,5 @@
 /* Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Prata&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Général */
@@ -494,7 +495,7 @@ main {
 main {
 
     .moi {
-        background-image: url(../image/bg_code.png);
+        background-image: url(../image/giphy.gif);
         background-repeat: no-repeat;
         background-size: cover;
         margin-bottom: 50px;
