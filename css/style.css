@@ -313,7 +313,7 @@ main {
         }
     }
 
-    #contact {
+    .contact {
         > div {
             margin-bottom: 100px;
             padding: 0 15px;
@@ -461,7 +461,15 @@ main {
     }
 }
 
-/* Main About */
+/* Main Contact */
+
+main {
+
+    .marge {
+
+        margin-top: 50px;
+    }
+}
 
 /* Footer */
 
@@ -552,23 +560,6 @@ footer {
                 }
             }
         }
-
-        /* #contact {
-
-            > div {
-
-                form {
-
-                    .form {
-                        grid-template-columns: 1fr;
-
-                        .msg {
-                            grid-column: 1;
-                        }
-                    }
-                }
-            }
-        } */
     }
 }
 
@@ -624,7 +615,7 @@ footer {
             }
         }
 
-        #contact {
+        .contact {
 
             > div {
 
