@@ -16,6 +16,7 @@
 
 :root {
     --vertclair:#ebfce8;
+    --vertclairopa:#ebfce8b6;
     --vertfonce:#3a4738;
     --vertbutton:#51804a;
     --vertswitch:#51eb38;
@@ -57,7 +58,11 @@ h1, h2, h3 {
 /* Header */
 
 header {
-    background-color: var(--vertclair);
+    background-color: var(--vertclairopa);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
 
     div {
         display: flex;
