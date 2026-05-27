@@ -74,19 +74,22 @@ header {
             
         }
 
-        ul {
-            display: flex;
-            gap: 30px;
-            li {
+        nav {
 
-                a {
-                    color: var(--black);
-                    font-size: 16px;
-                    transition: all 0.3s ease-in-out;
+            ul {
+                display: flex;
+                gap: 30px;
+                li {
 
-                    &:hover {
+                    a {
+                        color: var(--black);
+                        font-size: 16px;
                         transition: all 0.3s ease-in-out;
-                        border-bottom: 2px solid var(--black);
+
+                        &:hover {
+                            transition: all 0.3s ease-in-out;
+                            border-bottom: 2px solid var(--black);
+                        }
                     }
                 }
             }
@@ -481,6 +484,58 @@ main {
     }
 }
 
+/* Main About */
+
+main {
+
+    .moi {
+        background-image: url(../image/bg_code.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 50px;
+
+        > div {
+
+            padding: 200px 15px;
+
+            h1 {
+                text-align: center;
+                font-size: 50px;
+                margin-bottom: 50px;
+            }
+
+            div {
+
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                align-items: center;
+                text-align: center;
+
+                img {
+                    width: 248px;
+                    height: 248px;
+                    border-radius: 50%;
+                    border: 3px solid var(--white);
+                    margin: auto;
+                }
+            }
+        }
+    }
+
+    .about {
+
+        h2 {
+            margin-bottom: 30px;
+        }
+
+        > div {
+
+            grid-template-columns: 1fr;
+            gap: 80px;
+        }
+    }
+}
+
 /* Main Contact */
 
 main {
@@ -618,7 +673,7 @@ footer {
 
         div {
 
-            ul {
+            nav {
 
                 display: none;
             }
@@ -677,6 +732,23 @@ footer {
                             grid-column: 1;
                         }
                     }
+                }
+            }
+        }
+    }
+
+    /* Main About */
+
+    main {
+
+        .moi {
+
+            > div {
+
+                div {
+
+                    grid-template-columns: 1fr;
+                    gap: 40px;
                 }
             }
         }
