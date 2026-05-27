@@ -220,7 +220,7 @@ main {
         }
     }
 
-    #projet {
+    .projet {
         background-color: var(--vertclair);
 
        > div {
@@ -471,6 +471,16 @@ main {
     }
 }
 
+/* Main Projects */
+
+/* main {
+
+    .projetmain {
+
+        margin-top: 50px;
+    }
+} */
+
 /* Footer */
 
 footer {
@@ -527,7 +537,7 @@ footer {
 }
 
 @media screen and (max-width:1024px) {
-    main {
+    /* main {
 
         #image {
 
@@ -559,8 +569,8 @@ footer {
                     grid-template-columns: 1fr;
                 }
             }
-        }
-    }
+        } 
+    } */
 }
 
 @media screen and (max-width:768px) {
