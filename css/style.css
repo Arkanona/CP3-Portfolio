@@ -220,7 +220,7 @@ main {
         }
     }
 
-    .projet {
+    .projet, .projetmain {
         background-color: var(--vertclair);
 
        > div {
@@ -269,6 +269,7 @@ main {
 
                         div {
                             display: flex;
+                            flex-wrap: wrap;
                             gap: 15px;
 
                             span {
@@ -473,13 +474,13 @@ main {
 
 /* Main Projects */
 
-/* main {
+main {
 
     .projetmain {
 
-        margin-top: 50px;
+        border-top: 1px solid var(--lightgrey);
     }
-} */
+}
 
 /* Footer */
 
@@ -590,6 +591,7 @@ footer {
             }
         }
     }
+/* Main Page */
 
     main {
 
@@ -614,7 +616,7 @@ footer {
             }
         }
 
-        #projet {
+        .projet {
 
             > div {
 
