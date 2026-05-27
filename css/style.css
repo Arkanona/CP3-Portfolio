@@ -167,9 +167,16 @@ main {
         }
     }
 
-    #propos {
+    .propos {
         margin-bottom: 100px;
         padding: 0 15px;
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            margin-bottom: 50px;
+        }
+
         h2 {
             text-align: center;
             font-size: 36px;
@@ -220,17 +227,23 @@ main {
         }
     }
 
-    .projet, .projetmain {
+    .projet{
         background-color: var(--vertclair);
 
        > div {
             margin-bottom: 100px;
             padding: 80px 15px;
 
+            h1 {
+                text-align: center;
+                font-size: 50px;
+                margin-bottom: 30px;
+            }
+
             h2 {
-            text-align: center;
-            font-size: 36px;
-            margin-bottom: 30px;
+                text-align: center;
+                font-size: 36px;
+                margin-bottom: 30px;
             }
 
             > p {
@@ -318,6 +331,12 @@ main {
         > div {
             margin-bottom: 100px;
             padding: 0 15px;
+
+            h1 {
+            text-align: center;
+            font-size: 50px;
+            margin-bottom: 30px;
+            }
 
             h2 {
             text-align: center;
@@ -477,8 +496,27 @@ main {
 main {
 
     .projetmain {
-
         border-top: 1px solid var(--lightgrey);
+
+        > div {
+            margin-bottom: 0;
+
+            > div {
+
+                article {
+
+                    > div {
+
+                        h2 {
+                            font-size: 20px;
+                            font-weight: 600;
+                            text-align: left;
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -591,7 +629,6 @@ footer {
             }
         }
     }
-/* Main Page */
 
     main {
 
@@ -607,7 +644,7 @@ footer {
             }
         }
 
-        #propos {
+        .propos {
 
             > div {
 
